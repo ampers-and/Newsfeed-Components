@@ -112,3 +112,57 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+const container = document.querySelector('.articles');
+
+function createArticle(a){
+
+  //New Elements
+  const article = document.createElement('div');
+  const atitle = document.createElement('h2');
+  const adate = document.createElement ('p');
+  const acontent1 = document.createElement('p');
+  const acontent2 = document.createElement('p');
+  const acontent3 = document.createElement('p');
+  const btn = document.createElement('span');
+
+  //Structure
+  article.appendChild(atitle);
+  article.appendChild(adate);
+  article.appendChild(acontent1);
+  article.appendChild(acontent2);
+  article.appendChild(acontent3);
+  article.appendChild(btn);
+
+  //Class Names
+  article.classList.add('article');
+  adate.classList.add('date');
+  btn.classList.add('expandButton');
+
+  //Text Content
+  atitle.textContent = a.title;
+  adate.textContent = a.date;
+  acontent1.textContent = a.firstParagraph;
+  acontent2.textContent = a.secondParagraph;
+  acontent3.textContent = a.thirdParagraph;
+
+  //Button
+
+
+
+  return article;
+}
+
+let newArticles = data.map(a => {
+  let newArt = createArticle(a);
+  container.appendChild(newArt);
+  return newArt;
+});
+
+// function addArt(){
+//   let newArt = createArticle(this);
+//   // container.appendChild(newArt);
+//   return newArt;
+// }
+
+// newArticles.forEach(a => container.appendChild(a));
