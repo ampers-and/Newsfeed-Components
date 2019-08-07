@@ -53,12 +53,12 @@ function createMenuComp(a){
     newItem.textContent = i;
   })
   let menuButton = document.querySelector('.menu-button');
-  menuButton.addEventListener('click', toggle.classList('menu--open'));
+  menuButton.addEventListener('click', () => menu.classList.toggle('menu--open'));
   
   return menu;
 }
 
 window.addEventListener('load', event => {
   let menuBar = document.querySelector('.header');
-  menubar.appendChild(createMenuComp(menuItems));
+  menuBar.appendChild(createMenuComp(menuItems));
 })
