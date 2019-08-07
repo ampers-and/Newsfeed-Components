@@ -160,6 +160,7 @@ function createArticle(a){
   acontent1.textContent = a.firstParagraph;
   acontent2.textContent = a.secondParagraph;
   acontent3.textContent = a.thirdParagraph;
+  btn.textContent = "Expand Article"
 
   //Button
     btn.addEventListener('toggle', (event) => {
