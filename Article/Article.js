@@ -163,8 +163,8 @@ function createArticle(a){
   btn.textContent = "Expand Article"
 
   //Button
-    btn.addEventListener('toggle', (event) => {
-      btn.classList.toggle('article-open');
+    btn.addEventListener('click', () => {
+      article.classList.toggle('article-open');
     }); 
 
   console.log(article);
@@ -180,11 +180,3 @@ window.addEventListener('load', event => {
     return newArt;
   })
 })
-
-// function addArt(){
-//   let newArt = createArticle(this);
-//   // layout.appendChild(newArt);
-//   return newArt;
-// }
-
-// newArticles.forEach(a => layout.appendChild(a));
