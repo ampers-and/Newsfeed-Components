@@ -85,6 +85,20 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title:'Javascript or Java Beans?',
+    date: 'Aug 7th, 2019',
+    firstParagraph:'White froth cortado macchiato java foam that eu crema, robusta, robust, cup eu sit breve crema white. Dripper grinder brewed rich, trifecta macchiato in foam affogato instant in americano, single origin, filter extra cultivar single origin french press. French press, iced sugar beans aftertaste, siphon qui so pumpkin spice doppio sit, trifecta, dripper decaffeinated wings mocha acerbic variety wings saucer milk. Barista, that black robust black sugar, qui filter siphon skinny, sugar chicory sugar pumpkin spice doppio. ',
+    secondParagraph:'Coffee, extra, caffeine white body black milk acerbic, grinder, half and half latte mug barista trifecta, crema, steamed skinny extraction dripper americano caffeine. Eu, single origin spoon, cream aftertaste ristretto qui breve bar americano, mazagran, black cappuccino coffee qui trifecta saucer. That, in cup, espresso robust, cream, con panna black brewed, aftertaste cultivar ristretto wings doppio ristretto.',
+    thirdParagraph:'Mocha, wings beans extra, medium, instant single shot saucer spoon iced, lungo, ut aromatic, sweet sugar breve viennese caffeine espresso. Americano et organic, galão rich latte sweet sugar strong, single shot sweet, robusta, grinder flavour to go single shot caffeine est barista crema pumpkin spice latte. Blue mountain java french press crema cortado caffeine dark, body, filter half and half caffeine iced coffee iced chicory. Strong robust brewed cappuccino, roast, brewed aftertaste black mazagran lungo, so chicory so and affogato barista acerbic.'
+  },
+  {
+    title: 'More Coffee!',
+    date: 'Aug 7th, 2019',
+    firstParagraph:'White froth cortado macchiato java foam that eu crema, robusta, robust, cup eu sit breve crema white. Dripper grinder brewed rich, trifecta macchiato in foam affogato instant in americano, single origin, filter extra cultivar single origin french press. French press, iced sugar beans aftertaste, siphon qui so pumpkin spice doppio sit, trifecta, dripper decaffeinated wings mocha acerbic variety wings saucer milk. Barista, that black robust black sugar, qui filter siphon skinny, sugar chicory sugar pumpkin spice doppio. ',
+    secondParagraph:'Coffee, extra, caffeine white body black milk acerbic, grinder, half and half latte mug barista trifecta, crema, steamed skinny extraction dripper americano caffeine. Eu, single origin spoon, cream aftertaste ristretto qui breve bar americano, mazagran, black cappuccino coffee qui trifecta saucer. That, in cup, espresso robust, cream, con panna black brewed, aftertaste cultivar ristretto wings doppio ristretto.',
+    thirdParagraph:'Mocha, wings beans extra, medium, instant single shot saucer spoon iced, lungo, ut aromatic, sweet sugar breve viennese caffeine espresso. Americano et organic, galão rich latte sweet sugar strong, single shot sweet, robusta, grinder flavour to go single shot caffeine est barista crema pumpkin spice latte. Blue mountain java french press crema cortado caffeine dark, body, filter half and half caffeine iced coffee iced chicory. Strong robust brewed cappuccino, roast, brewed aftertaste black mazagran lungo, so chicory so and affogato barista acerbic.'
   }
 ];
 
