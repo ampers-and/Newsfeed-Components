@@ -113,7 +113,7 @@ const data = [
 
 */
 
-const container = document.querySelector('.articles');
+const layout = document.querySelector('.articles');
 
 function createArticle(a){
 
@@ -155,14 +155,14 @@ function createArticle(a){
 
 let newArticles = data.map(a => {
   let newArt = createArticle(a);
-  container.appendChild(newArt);
+  layout.appendChild(newArt);
   return newArt;
 });
 
 // function addArt(){
 //   let newArt = createArticle(this);
-//   // container.appendChild(newArt);
+//   // layout.appendChild(newArt);
 //   return newArt;
 // }
 
-// newArticles.forEach(a => container.appendChild(a));
+// newArticles.forEach(a => layout.appendChild(a));
