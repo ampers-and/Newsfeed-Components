@@ -113,7 +113,8 @@ const data = [
 
 */
 
-const layout = document.querySelector('.articles');
+let layout = document.querySelector('.articles');
+console.log(layout);
 
 function createArticle(a){
 
@@ -147,17 +148,23 @@ function createArticle(a){
   acontent3.textContent = a.thirdParagraph;
 
   //Button
+    btn.addEventListener('toggle', (event) => {
+      btn.classList.toggle('article-open');
+    }); 
 
-
-
+  console.log(article);
   return article;
 }
 
-let newArticles = data.map(a => {
-  let newArt = createArticle(a);
-  layout.appendChild(newArt);
-  return newArt;
-});
+window.addEventListener('load', event => {
+
+  let layout = document.querySelector('.articles');
+  let newArticles = data.map(a => {
+    let newArt = createArticle(a);
+    layout.appendChild(newArt);
+    return newArt;
+  })
+})
 
 // function addArt(){
 //   let newArt = createArticle(this);
