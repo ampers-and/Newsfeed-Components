@@ -58,7 +58,7 @@ function createMenuComp(a){
   return menu;
 }
 
-window.addEventListener('load', event => {
+// window.addEventListener('load', event => {
   let menuBar = document.querySelector('.header');
   menuBar.appendChild(createMenuComp(menuItems));
-})
+// })
